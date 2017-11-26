@@ -22,10 +22,12 @@ app.prepare()
   server.use(cookieParser());
 
   server.get('/sw.js', (req, res) => {
-    console.log('Hola amigos')
     app.serveStatic(req, res, path.resolve('./static/sw.js'));
   })
 
+  server.get('/manifest.js', (req, res) => {
+    app.serveStatic(req, res, path.resolve('./static/manifest.json'));
+  })
   server.get('*', (req, res) => {
     return handle(req, res)
   })

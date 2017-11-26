@@ -12,7 +12,7 @@ class WebNavbar extends React.Component {
   render() {
     return(
       <div className="avatar-container">
-        <img src='/static/perfil2.jpg' />
+        <img src='/static/perfil2.jpg' alt="Imagen de Juan Gallo"/>
         <style jsx>{`
           .avatar-container {
             width: 250px;
