@@ -9,7 +9,7 @@ const handle = app.getRequestHandler()
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
-
+const path = require('path')
 
 app.prepare() 
 .then(() => {
@@ -20,6 +20,11 @@ app.prepare()
   server.use(bodyParser.json());
   server.use(bodyParser.urlencoded({ extended: false }));
   server.use(cookieParser());
+
+  server.get('/sw.js', (req, res) => {
+    console.log('Hola amigos')
+    app.serveStatic(req, res, path.resolve('./static/sw.js'));
+  })
 
   server.get('*', (req, res) => {
     return handle(req, res)

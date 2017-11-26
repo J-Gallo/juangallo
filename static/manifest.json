@@ -1,0 +1,8 @@
+{
+  "name": "Juan Gallo: Fullstack engineer",
+  "short_name": "Juan Gallo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#222222",
+  "theme_color": "#fefdfe"
+}
