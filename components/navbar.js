@@ -35,7 +35,7 @@ class WebNavbar extends React.Component {
 
           h1 {
             color #f3f3f3;
-            width: 100px;
+            width: 110px;
             margin: auto;
             cursor: pointer;
           }
