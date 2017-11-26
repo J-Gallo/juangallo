@@ -17,28 +17,28 @@ class WebProjects extends React.Component {
             <div className="project-data">
               <h3>Argentum Online Web </h3>
             </div>
-          <img src="/static/aoweb.jpg" />
+          <img src="/static/aoweb.jpg" alt="Imagen de Proyecto Argentum Online Web" />
         </div>
         <div className="project-container">
           <div className="project-overlay tanIntensa"></div>
           <div className="project-data">
             <h3>Tan Intensa </h3>
           </div>
-          <img src="/static/tanintensa.jpg" />        
+          <img src="/static/tanintensa.jpg" alt="Imagen de Proyecto Tan Intensa" />        
         </div>
         <div className="project-container">
           <div className="project-overlay lutionAds"></div>
           <div className="project-data">
             <h3>Lution Ads</h3>
           </div>
-          <img src="/static/LutionAds.jpg" />     
+          <img src="/static/LutionAds.jpg" alt="Imagen de Proyecto Lution Ads" />     
         </div>
         <div className="project-container">
           <div className="project-overlay tanIntensa"></div>
           <div className="project-data">
             <h3>Twitter List</h3>
           </div>
-          <img src="/static/twitterlist.jpg" />     
+          <img src="/static/twitterlist.jpg" alt="Imagen de Proyecto Twitter List" />     
         </div>
         <style jsx>{`
           .projects-container {
