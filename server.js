@@ -16,6 +16,7 @@ app.prepare()
   const server = express();
 
   server.use(compression());
+  server.use(express.static(__dirname + '/static', { maxAge: 86400000 }));
   server.use(bodyParser.json());
   server.use(bodyParser.urlencoded({ extended: false }));
   server.use(cookieParser());
