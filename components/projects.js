@@ -88,6 +88,7 @@ class WebProjects extends React.Component {
             .project-container {
               min-width: 100%;
               max-width: 100%;
+              height: auto;
             }
           }
         `}</style>
