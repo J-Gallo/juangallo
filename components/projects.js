@@ -83,6 +83,13 @@ class WebProjects extends React.Component {
             max-width: 100%;
             transition: all 0.3s;
           }
+
+          @media(max-width: 1000px) {
+            .project-container {
+              min-width: 100%;
+              max-width: 100%;
+            }
+          }
         `}</style>
       </div>
     )
