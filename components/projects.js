@@ -27,7 +27,7 @@ class WebProjects extends React.Component {
             <h3>Tan Intensa </h3>
           </div>
           <a href="https://www.tanintensa.com" target="_blank">
-          <img src="/static/tanintensa.jpg" alt="Imagen de Proyecto Tan Intensa" />  
+            <img src="/static/tanintensa.jpg" alt="Imagen de Proyecto Tan Intensa" />  
           </a>      
         </div>
         <div className="project-container">
