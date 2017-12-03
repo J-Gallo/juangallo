@@ -8,4 +8,5 @@ export default () =>
     <link href="https://fonts.googleapis.com/css?family=Asap" media="none" onload="if(media!='all')media='all'" /><noscript><link rel="stylesheet" href="css.css" /></noscript> 
     <meta name="description" content="Fullstack engineer from Buenos Aires, Argentina. Passionate about web development, web performance and artificial intelligence" />
     <meta name="google-site-verification" content="GSfPUpKuuqHyBUgHazXiGEG9DJuBS0Ge6_wmvHvGJdk" />
+    <link rel="canonical" href="https://www.juan-gallo.com" />
   </Head>
