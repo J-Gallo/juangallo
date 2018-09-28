@@ -14,7 +14,7 @@ class WebNavbar extends React.Component {
       <div className="mainDescription-container">
         <h2>Fullstack engineer from Buenos Aires, Argentina. Passionate about web development, 
           web performance and artificial intelligence. 
-          Currently working as Engineering Manager @ TiendaNube
+          Currently working as CEO @ Regalandolo
         </h2>
         <style jsx>{`
           .mainDescription-container {
