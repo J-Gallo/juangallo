@@ -12,7 +12,10 @@ class WebNavbar extends React.Component {
   render() {
     return(
       <div className="mainDescription-container">
-        <h2>Fullstack engineer from Buenos Aires, Argentina. Passionate about web development, web performance and artificial intelligence. Currently working as Engineering Manager @ TiendaNube</h2>
+        <h2>Fullstack engineer from Buenos Aires, Argentina. Passionate about web development, 
+          web performance and artificial intelligence. 
+          Currently working as Engineering Manager @ TiendaNube
+        </h2>
         <style jsx>{`
           .mainDescription-container {
             max-width: 600px;

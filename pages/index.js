@@ -13,7 +13,6 @@ class Items extends React.Component {
     super(props);
     this.state = {
     }
-
   }
   
   render() {

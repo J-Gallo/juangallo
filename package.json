@@ -1,5 +1,5 @@
 {
-  "name": "startup-argentina",
+  "name": "juan-gallo",
   "version": "1.0.0",
   "scripts": {
     "dev": "NODE_ENV=dev node server.js",
@@ -25,7 +25,8 @@
     "q": "^1.5.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "restler": "^3.4.0"
+    "restler": "^3.4.0",
+    "sw-precache-webpack-plugin": "^0.11.5"
   },
   "devDependencies": {}
 }

@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  deploy-job:
+    docker:
+      - image: node:9
+    working_directory: ~/juangallo
+    steps:
+      - checkout
+      - run:
+          name: install-dependencies
+          command: npm install
+      - run:
+          name: Digital Ocean deploy CI
+          command: ssh -o "StrictHostKeyChecking no" root@138.197.6.185 "cd ~/juangallo;git checkout package.json;git checkout package-lock.json;git pull; docker-compose -f docker-compose-dev.yml up --build -d";
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - deploy-job:
+          filters:
+            branches:
+              only: master
