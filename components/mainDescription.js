@@ -14,7 +14,9 @@ class WebNavbar extends React.Component {
       <div className="mainDescription-container">
         <h2>Fullstack engineer from Buenos Aires, Argentina. Passionate about web development, 
           web performance and artificial intelligence. 
-          Currently working as CEO @ Regalandolo
+          <p>
+            Currently working as CEO @ Regalandolo
+          </p>
         </h2>
         <style jsx>{`
           .mainDescription-container {
@@ -27,6 +29,10 @@ class WebNavbar extends React.Component {
             text-align: justify;
             font-weight: lighter;
             line-height: 30px;
+          }
+
+          h2 p {
+            text-align: center;
           }
         `}</style>
       </div>
