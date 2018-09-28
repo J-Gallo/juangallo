@@ -6,6 +6,6 @@ services:
     build: .
     ports:
       - "3001:3001"
-    command: bash -c "npm run start"
+    command: bash -c "npm run build;npm run start"
     volumes:
       - .:/usr/src/app
